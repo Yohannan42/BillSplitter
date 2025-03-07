@@ -1,0 +1,110 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+/* Center the headings */
+h1, h2 {
+    text-align: center;
+    color: #046b5b; /* Dark emerald */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Background Styling */
+.background {
+    background-image: url(../images/BillSplitter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+td {
+    padding: 0.7rem;
+}
+
+/* Input Fields */
+input[type="number"] {
+    width: 500%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="number"]:focus {
+    border-color: #046b5b;
+    box-shadow: 0px 0px 8px rgba(4, 107, 91, 0.5);
+}
+
+/* Buttons */
+button {
+    background-color: #046b5b; /* Emerald green */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #034d40;
+    box-shadow: 0px 0px 10px rgba(4, 107, 91, 0.5);
+}
+
+/* Double Underline for Totals */
+.double-underlined {
+    border-bottom: 4px double black;
+    font-weight: bold;
+}
+
+/* Green Success Message */
+.green-flag {
+    color: #1a8c4f;
+    font-weight: bold;
+}
+
+/* Adjusted Red Warning Message */
+.red-flag {
+    color: #ff5733; /* Softer red-orange */
+    font-weight: bold;
+}
+
+/* Right Alignment */
+.right-aligned {
+    text-align: right;
+}
+
+/* Light Background Shading */
+.shaded {
+    background-color: rgba(32, 178, 170, 0.3);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Underlined Values */
+.underlined {
+    border-bottom: 1px solid black;
+}
